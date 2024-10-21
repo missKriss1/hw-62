@@ -10,7 +10,7 @@ const ToolBar = () => {
           <NavLink className="text-white text-decoration-none" to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink className="text-white text-decoration-none" to="/collection">Collection</NavLink>
+          <NavLink className="text-white text-decoration-none" to="/collection">New collection</NavLink>
         </li>
         <li>
           <NavLink className="text-white text-decoration-none" to="/contacts">Contacts</NavLink>

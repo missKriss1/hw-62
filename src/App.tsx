@@ -39,9 +39,17 @@ const App = () => {
         <ToolBar/>
       </header>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/contacts" element={<Contacts/>}/>
-        <Route path="/collection" element={<Clothes clothes={clothes}/>}/>
+        <Route
+          path="/"
+          element={<Home/>}
+        />
+        <Route
+          path="/contacts"
+          element={<Contacts/>}
+        />
+        <Route path="/collection"
+               element={<Clothes clothes={clothes}/>}
+        />
       </Routes>
     </>
   );
